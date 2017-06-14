@@ -12,3 +12,13 @@ Assign variables with understandable names and in lower case:
 my_first_variable = 1
 my_second_variable = 2
 ```
+
+###### Variable Scope:
+
+Scope    | notation
+---------|-----------
+Global   | $var_name
+Class    | @@var_name
+Instance | @var_name
+Local    | var_name
+Block    | var_name
