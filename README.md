@@ -10,4 +10,4 @@ Links off to appropriate sections:
 ### [Classes](https://github.com/pooleyjim/ruby_stuff/blob/master/notes/classes.md)
 ### [Modules](https://github.com/pooleyjim/ruby_stuff/blob/master/notes/modules.md)
 ### [Editing files](https://github.com/pooleyjim/ruby_stuff/blob/master/notes/editing_files.md)
-### [Project ideas](https://github.com/pooleyjim/ruby_stuff/blob/master/project_ideas.md)
+### [Project ideas](https://github.com/pooleyjim/ruby_stuff/blob/master/notes/project_ideas.md)
