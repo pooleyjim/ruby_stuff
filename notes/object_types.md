@@ -68,20 +68,20 @@ Items in array can be mixed types.
 ## Some Array methods
 
 inspect - returns array as string.<br>
-to_s - joins content of array into string.
-join(",") - joins an array but splits each element with comma.
-split(",") - creates an array splitting each element at the comma.
-reverse - print array in reverse.
-sort - simple sort.
-uniq - new array with unique values.
+to_s - joins content of array into string.<br>
+join(",") - joins an array but splits each element with comma.<br>
+split(",") - creates an array splitting each element at the comma.<br>
+reverse - print array in reverse.<br>
+sort - simple sort.<br>
+uniq - new array with unique values.<br>
 
 Add exclamation mark with methods to edit in line.
 
-delete_at(n) - delete at position n.
-delete(value) - deletes "value" from array and returns it.
-push(arg) - add "arg" to end of array.
-pop - returns and removes the last element of the array.
-shift and unshift - same as push and pop but for first element.
-You can add arrays together with '+'.
+delete_at(n) - delete at position n.<br>
+delete(value) - deletes "value" from array and returns it.<br>
+push(arg) - add "arg" to end of array.<br>
+pop - returns and removes the last element of the array.<br>
+shift and unshift - same as push and pop but for first element.<br>
+You can add arrays together with '+'.<br>
 
 You can search for extra methods in docs.
