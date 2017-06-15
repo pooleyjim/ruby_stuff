@@ -139,8 +139,8 @@ Either true or false.
 
 Comparisons:
 
-                         |
--------------------------|----
+Test                     |Operator
+-------------------------|---------
 Equal                    | ==
 Less than                | <
 Greater than             | >
