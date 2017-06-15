@@ -162,3 +162,33 @@ hash.has_key?(:key2)
 hash.has_value?(value1)
 ```
 
+## Ranges
+Two kinds:
+
+Inclusive
+```ruby
+1..10
+1,2,3,4,5,6,7,8,9,10
+```
+Exclusive
+```ruby
+1...10
+1,2,3,4,5,6,7,8,9
+```
+Methods:
+```ruby
+begin
+end
+first
+last
+include?
+[*1..10] - * is 'splat' - to expand
+```
+
+## Constants
+Similar to variables in that:
+- Not true objects
+- Pointers to objects
+
+Different to variables:
+- Constants are *constant* i.e. they do not change
