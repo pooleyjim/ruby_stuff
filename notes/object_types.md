@@ -199,3 +199,5 @@ CONSTANT = 1
 Also_a_constant = 2
 variable = 3
 ```
+
+You can still change a constant however will receive a warning.
