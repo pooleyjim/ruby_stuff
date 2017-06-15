@@ -85,3 +85,65 @@ shift and unshift - same as push and pop but for first element.<br>
 You can add arrays together with '+'.<br>
 
 You can search for extra methods in docs.
+
+## Hash
+
+Hashes are object-indexed unordered collection of objects i.e. a collection of key=value pairs.
+
+Create a hash:
+```ruby
+my_first_hash = { 'key1' => 'value1', 'key2' => 'value2' }
+```
+
+Pull from hash by key:
+```ruby
+my_first_hash['key1']
+
+Pull from hash by value:
+```ruby
+my_first_hash.index('value2')
+```
+
+Hashes can be a mix of object types.
+
+*methods:*
+keys - returns keys.
+values - returns values.
+length - returns length.
+size - returns size.
+to_a - turn each element of hash into an array and the hash as a whole into an array.
+clear - empty the hash.
+Add to:
+```ruby
+my_first_hash['key3'] = 'value3'
+```
+
+## Symbols
+Defined with colon followed by string e.g.:
+```ruby
+:my_first_symbol
+```
+Object id does not change for symbols. Useful inside of hashes:
+```ruby
+my_first_hash = { :key1 => 'value1', :key2 => 'value2' }
+```
+Quote with:
+```ruby
+my_first_hash[:key1]
+```
+
+Labels cannot be assigned a value like a variable. Rule of thumb, if needed for output use string otherwise consider label.
+
+## Booleans
+Either true or false.
+
+Comparisons:
+Equal                    | ==
+Less than                | <
+Greater than             | >
+Less than or equal to    | <=
+Greater than or equal to | >=
+Not                      | !
+Not equal                | !=
+And                      | &&
+Or                       | ||
