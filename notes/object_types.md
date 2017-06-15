@@ -149,4 +149,4 @@ Greater than or equal to | >=
 Not                      | !
 Not equal                | !=
 And                      | &&
-Or                       | ||
+Or                       | \|\|
