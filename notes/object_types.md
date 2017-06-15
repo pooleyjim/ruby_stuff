@@ -150,3 +150,15 @@ Not                      | !
 Not equal                | !=
 And                      | &&
 Or                       | \|\|
+
+Question marks can be used after a lot of methods to test. Examples:
+```ruby
+x.nil?
+x.between?(1,10)
+x.empty?
+array.include?(1)
+hash.has_key?('key1')
+hash.has_key?(:key2)
+hash.has_value?(value1)
+```
+
