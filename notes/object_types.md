@@ -138,6 +138,7 @@ Labels cannot be assigned a value like a variable. Rule of thumb, if needed for 
 Either true or false.
 
 Comparisons:
+-------------------------|----
 Equal                    | ==
 Less than                | <
 Greater than             | >
