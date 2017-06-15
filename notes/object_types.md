@@ -192,3 +192,10 @@ Similar to variables in that:
 
 Different to variables:
 - Constants are *constant* i.e. they do not change
+
+Define a constant with all caps. 
+```ruby
+CONSTANT = 1
+Also_a_constant = 2
+variable = 3
+```
