@@ -60,3 +60,13 @@ Would be:
 ```ruby
 b = a || c
 ```
+Another shortcut:
+```ruby
+unless a
+  a = b
+end
+```
+would be
+```ruby
+a ||= b
+```
